@@ -1,17 +1,25 @@
-﻿var builder = WebApplication.CreateBuilder(args);
-
-// Servicii de bază
+﻿using backend.Data;
+using Microsoft.EntityFrameworkCore;
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
-// Adaugă asta pentru React (CORS)
+// 1. Definim politica CORS
 builder.Services.AddCors(options => {
-    options.AddPolicy("AllowReact", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+    options.AddPolicy("DevCors", policy => {
+        policy.WithOrigins("http://localhost:3000") // Adresa React
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
 });
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
-app.UseCors("AllowReact"); // Permite React-ului să vorbească cu C#
-app.MapControllers();
+// 2. Activăm CORS (trebuie pus înainte de MapControllers)
+app.UseCors("DevCors");
 
+app.UseHttpsRedirection();
+app.MapControllers();
 app.Run();
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));

@@ -6,10 +6,15 @@ namespace backend.Controllers
     [Route("api/[controller]")]
     public class HelloController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("status")]
         public IActionResult Get()
         {
-            return Ok(new { mesaj = "Backend-ul este online!", data = DateTime.Now });
+            return Ok(new
+            {
+                message = "Pufi Pufos <3",
+                serverTime = DateTime.Now,
+                status = "Online"
+            });
         }
     }
 }

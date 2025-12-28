@@ -25,3 +25,14 @@ E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\refint
 E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.pdb
 E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.genruntimeconfig.cache
 E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\ref\backend.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Humanizer.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Npgsql.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\System.CodeDom.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.csproj.CopyComplete
