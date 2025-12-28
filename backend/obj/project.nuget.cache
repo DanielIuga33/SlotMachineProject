@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AAgCrp1rvDJpYFEu2NXhUT2QvwcVWCrofp1PUO9A5AJ1msF6++6rLKZr1xAL7RR49A1GLq/fVSVhShgAXKqRLg==",
+  "success": true,
+  "projectFilePath": "E:\\Programare\\GitHub Projects\\SlotMachineProject\\backend\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.0\\swashbuckle.aspnetcore.10.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
