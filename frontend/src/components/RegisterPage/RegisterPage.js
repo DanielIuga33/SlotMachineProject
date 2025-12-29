@@ -130,7 +130,16 @@ const navigate = useNavigate();
         setErrorMessage('');
         try {
             // Trimitem direct state-ul formData
-            const response = await axios.post(`${API_URL}/user/register`, formData);
+            const payload = {
+    firstName: formData.name,      // Mapare manuală
+    lastName: formData.surname,
+    email: formData.email,
+    password: formData.password,
+    cnp: formData.cnp,             // Asigură-te că ai cnp și address în formData
+    address: formData.address
+};
+
+const response = await axios.post(`${API_URL}/user/register`, payload);
             console.log('Success:', response.data);
             alert("Înregistrare reușită!");
             navigate("/login"); // Trimite userul la login după succes
@@ -162,7 +171,7 @@ const navigate = useNavigate();
                 </div>
                 <div className="box">
                     <label>Email</label>
-                    <input type="email" name="email" helperText={getEmailHelperText()} onChange={handleChange} />
+                    <input type="email" name="email" onChange={handleChange} />
                 </div>
                 <div className="box">
                     <label>Parola</label>
