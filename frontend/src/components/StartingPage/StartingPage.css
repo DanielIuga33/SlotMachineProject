@@ -65,3 +65,54 @@
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(212, 160, 23, 0.6);
 }
+
+
+/* Logo */
+
+
+.logo-wrapper {
+    position: absolute;
+    top: 20px;       /* Distanța față de marginea de sus */
+    left: 20px;      /* Distanța față de marginea din stânga */
+    transform: none; /* Eliminăm centrarea anterioară */
+    z-index: 100;    /* Se asigură că stă peste video și overlay */
+}
+
+.logo-wrapper img {
+    width: 180px;    /* Îl facem puțin mai mic pentru colț, să nu ocupe prea mult spațiu */
+    height: auto;
+    mix-blend-mode: screen;
+    filter: drop-shadow(0 0 10px rgba(243, 207, 122, 0.4));
+    transition: transform 0.3s ease;
+}
+
+.logo-wrapper img:hover {
+    transform: scale(1.1); /* Efect de mărire la trecerea mouse-ului */
+}
+
+.login-box {
+    position: relative;
+    z-index: 10;
+    margin-top: 100px;
+    background: rgba(10, 10, 10, 0.6);
+    padding: 3rem;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(212, 160, 23, 0.3);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+}
+
+.login-box form input {
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(212, 160, 23, 0.4);
+    background: rgba(255, 255, 255, 0.05);
+    color: #f3cf7a;
+    outline: none;
+}
+
+.login-box form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #0a0a0a inset !important;
+    -webkit-text-fill-color: #f3cf7a !important;
+}

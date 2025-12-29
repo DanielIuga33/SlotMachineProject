@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Controllers",
-    "\\obj",
-    "\\Repositories"
+    "\\Data",
+    "\\DTOs",
+    "\\Migrations",
+    "\\Models",
+    "\\Repositories",
+    "\\Services"
   ],
   "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false

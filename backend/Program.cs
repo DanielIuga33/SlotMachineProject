@@ -28,6 +28,14 @@ builder.Services.AddScoped<IUserService, UserService>();
 // AICI SE ÎNCHIDE CONFIGURAREA SERVICIILOR
 var app = builder.Build();
 
+//am adaugat asta ca sa se creeze tabelele automat daca nu exista deja -Andreea
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    dbContext.Database.EnsureCreated(); // Această linie creează tabelele dacă ele lipsesc
+}
+
+
 // 5. Configurare Pipeline (Middleware)
 if (app.Environment.IsDevelopment())
 {

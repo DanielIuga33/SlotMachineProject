@@ -19,14 +19,16 @@ const StartingPage = () => {
 
     return (
         <div className= "poza-container">
+        <div className="logo-wrapper" onClick={callBackend}>
+               <img src="/logo/Gemini_Generated_Image_ge1422ge1422ge14-removebg-preview.png" alt="VIP SLOTS Logo" />
+        </div>
             <div className= "welcome-card">
             <h1>𝙒𝙚𝙡𝙘𝙤𝙢𝙚</h1>
             <p>𝗥𝗲𝗮𝗱𝘆 𝘁𝗼 𝘁𝗲𝘀𝘁 𝘆𝗼𝘂𝗿 𝗹𝘂𝗰𝗸?</p>
 
             <div className= "button-group">
                 <div className= "row-buttons">
-            <button onClick={callBackend}>Check if Backend Work
-            </button>
+
             <button className="btn-startpage" onClick={() => navigate('/login')}>
                 Login
             </button>
