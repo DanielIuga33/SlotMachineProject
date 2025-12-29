@@ -40,3 +40,42 @@ E:\GitHubProjects\SlotMachineProject\backend\obj\Debug\net7.0\refint\backend.dll
 E:\GitHubProjects\SlotMachineProject\backend\obj\Debug\net7.0\backend.pdb
 E:\GitHubProjects\SlotMachineProject\backend\obj\Debug\net7.0\backend.genruntimeconfig.cache
 E:\GitHubProjects\SlotMachineProject\backend\obj\Debug\net7.0\ref\backend.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\appsettings.Development.json
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\appsettings.json
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\backend.staticwebassets.runtime.json
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\backend.exe
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\backend.deps.json
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\backend.runtimeconfig.json
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\backend.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\backend.pdb
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\BCrypt.Net-Next.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Humanizer.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Npgsql.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\System.CodeDom.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.csproj.AssemblyReference.cache
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.AssemblyInfoInputs.cache
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.AssemblyInfo.cs
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.csproj.CoreCompileInputs.cache
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.MvcApplicationPartsAssemblyInfo.cache
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\staticwebassets\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\staticwebassets\msbuild.build.backend.props
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.backend.props
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.backend.props
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\staticwebassets.build.json
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\staticwebassets.development.json
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\scopedcss\bundle\backend.styles.css
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.csproj.CopyComplete
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\refint\backend.dll
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.pdb
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.genruntimeconfig.cache
+E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\ref\backend.dll

@@ -57,4 +57,37 @@ public class UserController : ControllerBase
         if (user == null) return NotFound(new { message = "Utilizatorul nu există." });
         return Ok(user);
     }
+
+    [HttpPost("auth")]
+    public async Task<IActionResult> Auth([FromBody] LoginRequest loginData)
+    {
+        // 1. Validare input
+        if (loginData == null || string.IsNullOrEmpty(loginData.Password))
+            return BadRequest("Date incomplete.");
+
+        // 2. Căutăm userul în DB
+        var user = await _userService.FindByEmail(loginData.Email);
+
+        // 3. Dacă userul nu există
+        if (user == null)
+        {
+            return Unauthorized("Utilizatorul nu există.");
+        }
+
+        // 4. VERIFICAREA PAROLEI CRIPTATE
+        // BCrypt.Verify ia parola "curată" de la user și o compară cu Hash-ul din DB
+        bool isPasswordValid = BCrypt.Net.BCrypt.Verify(loginData.Password, user.PasswordHash);
+
+        if (!isPasswordValid)
+        {
+            return Unauthorized("Parolă incorectă.");
+        }
+
+        // 5. Succes
+        return Ok(new
+        {
+            message = "Login successful",
+            userId = user.Id
+        });
+    }
 }

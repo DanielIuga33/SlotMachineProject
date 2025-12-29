@@ -98,12 +98,6 @@ const navigate = useNavigate();
     }, [formData.email]);
 
 
-    const getEmailHelperText = () => {
-        if (arontErr) return "Email must contain @";
-        if (finishErr) return "Email must finish with .com or .ro";
-        if (emailLenErr) return "Email must have at least 6 letters";
-    };
-
     const handleSubmit = async () => {
         const { name, surname, email, password, confirmPassword } = formData;
         if (!name || !surname || !email || !password) {
@@ -129,20 +123,18 @@ const navigate = useNavigate();
         }
         setErrorMessage('');
         try {
-            // Trimitem direct state-ul formData
             const payload = {
-                firstName: formData.name,      // Mapare manuală
+                firstName: formData.name,      
                 lastName: formData.surname,
                 email: formData.email,
                 password: formData.password,
-                cnp: formData.cnp,             // Asigură-te că ai cnp și address în formData
+                cnp: formData.cnp,             
                 address: formData.address
             };
-
             const response = await axios.post(`${API_URL}/user/register`, payload);
             console.log('Success:', response.data);
             alert("Înregistrare reușită!");
-            navigate("/login"); // Trimite userul la login după succes
+            navigate("/login"); 
         } catch (error) {
             console.error('Error:', error.response?.data || error.message);
             alert("Eroare: " + (error.response?.data?.message || "Server indisponibil"));
@@ -184,7 +176,7 @@ const navigate = useNavigate();
                 </div>
                 <div className="box">
                     <label>Email</label>
-                    <input type="email" name="email" helperText={getEmailHelperText()} onChange={handleChange} />
+                    <input type="email" name="email" onChange={handleChange} />
                 </div>
                 <div className="box">
                     <label>Parola</label>

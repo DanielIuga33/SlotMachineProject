@@ -5,8 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-//const API_URL = "https://localhost:7127/api";
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://localhost:7127/api";
 export default API_URL;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
