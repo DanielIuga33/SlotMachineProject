@@ -1,0 +1,67 @@
+.poza-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://i.pinimg.com/736x/36/6d/85/366d85ded4ef678bce2d80441a984590.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.welcome-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 50px 80px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.welcome-card h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.welcome-card p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #ddd;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.row-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-startpage {
+   background: linear-gradient(180deg, #f3cf7a 0%, #d4a017 100%);
+   color: #1a1a1a;
+   padding: 12px 45px;
+   font-size: 1.2rem;
+   font-weight: bold;
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+   box-shadow: 0 4px 15px rgba(212, 160, 23, 0.4);
+   transition: all 0.3s ease;
+}
+
+.btn-startpage:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(212, 160, 23, 0.6);
+}

@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21c9612-db75-4d32-adae-d429aad8ddab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/41416856-7d74-4dca-8e16-04ff43b375bd.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/712e2573-4f61-4812-9f46-896155bb2a6e.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/9c37a0d8-e209-43a5-8298-1f433103e9f9.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/ef8e2f83-e3d7-4929-ba6d-1788575383b6.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/read.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/.wsuo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StartingPage/StartingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StartingPage/StartingPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StartingPage/StartingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StartingPage/StartingPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +40,19 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "Andreea",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/GitHubProjects/SlotMachineProject/frontend/public"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\videoMoney" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d21c9612-db75-4d32-adae-d429aad8ddab" name="Changes" comment="" />
