@@ -36,3 +36,4 @@ E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Npgsql
 E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\System.CodeDom.dll
 E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.csproj.CopyComplete
+E:\Programare\GitHub Projects\SlotMachineProject\backend\bin\Debug\net7.0\BCrypt.Net-Next.dll
