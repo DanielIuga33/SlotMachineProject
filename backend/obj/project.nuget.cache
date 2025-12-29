@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UtC2i23b25pvnBzeSD1QZSkbydtN/jXIHYClD+J0khESbEy1kdXA6SYwYijJAFPBHz3OxZxML+g4M5wY5DKqFA==",
+  "dgSpecHash": "cwFLwvmarwCAL7U7lMkQ+upfORkRCCYCDrSWvoIfRL5/nQ30siM9QsMSGkiepl4djotBzxPTH4hbaYHVZG0Rrw==",
   "success": true,
   "projectFilePath": "E:\\Programare\\GitHub Projects\\SlotMachineProject\\backend\\backend.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",

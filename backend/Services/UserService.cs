@@ -1,30 +1,48 @@
-﻿using backend.Data;
-using backend.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using backend.Models;
+using backend.Repositories; // Importăm Repository-ul
+using BCrypt.Net;
+
 namespace backend.Services
 {
     public class UserService : IUserService
     {
-        private readonly AppDbContext _context;
+        private readonly IUserRepository _userRepository; // Folosim Repository-ul, nu Context-ul
 
-        public UserService(AppDbContext context)
+        public UserService(IUserRepository userRepository)
         {
-            _context = context;
+            _userRepository = userRepository;
         }
 
         public async Task<User?> GetByIdAsync(int id)
         {
-            return await _context.Users.FindAsync(id);
+            // Folosim repository-ul pentru a căuta
+            return await _userRepository.GetByIdAsync(id);
         }
 
-        public async Task<User> RegisterAsync(User user, string password)
+        public async Task<bool> ExistByEmail(string email)
         {
-            user.PasswordHash = password;
+            var user = await _userRepository.GetByEmailAsync(email);
+
+            // Dacă user nu este null, înseamnă că există în baza de date
+            return user != null;
+        }
+
+        public async Task<User> RegisterAsync(User user, string clearPassword)
+        {
+            var existingUser = await _userRepository.GetByEmailAsync(user.Email);
+            if (existingUser != null)
+            {
+                throw new Exception("Acest email este deja utilizat!");
+            }
+            // 1. Hashing (Transformăm parola în cod sigur)
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(clearPassword);
+
+            // 2. Setări inițiale (Bonus de bun venit)
             user.Balance = 1000;
 
-            // În loc de UpdateDatabaseAsync, folosim Add și Save:
-            await _context.Users.AddAsync(user);
-            await _context.SaveChangesAsync(); // Aceasta este metoda corectă
+            // 3. Salvare prin Repository
+            await _userRepository.AddAsync(user);
+            await _userRepository.SaveChangesAsync();
 
             return user;
         }

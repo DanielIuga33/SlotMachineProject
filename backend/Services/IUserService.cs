@@ -7,5 +7,6 @@ namespace backend.Services
         Task<User?> GetByIdAsync(int id);
         Task<User> RegisterAsync(User user, string password);
         // Putem adăuga și: Task<bool> DeleteAsync(int id);
+        Task<bool> ExistByEmail(string email);
     }
 }
