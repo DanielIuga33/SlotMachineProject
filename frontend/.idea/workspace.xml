@@ -5,12 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21c9612-db75-4d32-adae-d429aad8ddab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/ProjectEvaluation/backend.metadata.v6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/ProjectEvaluation/backend.projects.v6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/CopilotIndices/17.14.1561.44479/CodeChunks.db" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/CopilotIndices/17.14.1561.44479/CodeChunks.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/CopilotIndices/17.14.1561.44479/SemanticSymbols.db" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/CopilotIndices/17.14.1561.44479/SemanticSymbols.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/3a093401-a541-4943-a128-0bce20400402.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/4cc1db61-fad6-41b6-9ad1-12053d9bd3dc.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/708ebd34-f677-44f8-9c4d-af0ebde8516f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/ce4d262f-d1c9-46c2-a7c1-af6c96864353.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/d2535887-36ca-4109-8556-1d5692c6b9cc.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/.wsuo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.backup.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/bin/Debug/net7.0/backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/bin/Debug/net7.0/backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/bin/Debug/net7.0/backend.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/bin/Debug/net7.0/backend.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/bin/Debug/net7.0/backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/bin/Debug/net7.0/backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/bin/Debug/net7.0/backend.staticwebassets.runtime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/ref/backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/ref/backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/refint/backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/refint/backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/staticwebassets/msbuild.build.backend.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.backend.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.backend.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Release/net7.0/backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Release/net7.0/backend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Release/net7.0/backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Release/net7.0/backend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/backend.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/backend.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/backend.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/backend.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StartingPage/StartingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StartingPage/StartingPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StartingPage/StartingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StartingPage/StartingPage.js" afterDir="false" />
     </list>
@@ -22,10 +67,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="37Ud86cujk5QimWpksmwaALozJJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,16 +85,19 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Andreea",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/GitHubProjects/SlotMachineProject/frontend/public"
+    "last_opened_file_path": "E:/GitHubProjects/SlotMachineProject/frontend/public/logo"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\logo" />
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\logo" />
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\videoMoney" />
     </key>
   </component>

@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+
 }
 
 .video-bg {
@@ -34,29 +35,98 @@
 .login-box {
     position: relative;
     z-index: 1;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 4rem;
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background: rgba(10, 10, 10, 0.6);
+    padding: 3rem;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(212, 160, 23, 0.3);
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.9);
     color: white;
 }
 
 .login-box form{
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 1.5rem;
     width: 350px;
 }
 
 .login-box form input{
     width: 100%;
-    padding: 12px 15px;
+    padding: 14px 20px;
+    border: 1px solid rgba(212, 160, 23, 0.4);
     font-size: 1.1rem;
-    border:none;
-    border-radius: 5px;
-    background-color: white;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #f3cf7a;
     outline: none;
     box-sizing: border-box;
+}
+
+.btn-login {
+   background: linear-gradient(180deg, #f3cf7a 0%, #d4a017 100%);
+   color: #1a1a1a;
+   padding: 12px 45px;
+   font-size: 1.2rem;
+   font-weight: bold;
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+   box-shadow: 0 4px 15px rgba(212, 160, 23, 0.4);
+   transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(212, 160, 23, 0.6);
+}
+
+/* Logo */
+
+
+.logo-wrapper {
+    position: absolute;
+    top: 20px;       /* Distanța față de marginea de sus */
+    left: 20px;      /* Distanța față de marginea din stânga */
+    transform: none; /* Eliminăm centrarea anterioară */
+    z-index: 100;    /* Se asigură că stă peste video și overlay */
+}
+
+.logo-wrapper img {
+    width: 180px;    /* Îl facem puțin mai mic pentru colț, să nu ocupe prea mult spațiu */
+    height: auto;
+    mix-blend-mode: screen;
+    filter: drop-shadow(0 0 10px rgba(243, 207, 122, 0.4));
+    transition: transform 0.3s ease;
+}
+
+.logo-wrapper img:hover {
+    transform: scale(1.1); /* Efect de mărire la trecerea mouse-ului */
+}
+
+.login-box {
+    position: relative;
+    z-index: 10;
+    margin-top: 100px;
+    background: rgba(10, 10, 10, 0.6);
+    padding: 3rem;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(212, 160, 23, 0.3);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+}
+
+.login-box form input {
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(212, 160, 23, 0.4);
+    background: rgba(255, 255, 255, 0.05);
+    color: #f3cf7a;
+    outline: none;
+}
+
+.login-box form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #0a0a0a inset !important;
+    -webkit-text-fill-color: #f3cf7a !important;
 }

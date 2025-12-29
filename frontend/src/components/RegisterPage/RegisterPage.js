@@ -131,6 +131,7 @@ const navigate = useNavigate();
         try {
             // Trimitem direct state-ul formData
             const payload = {
+<<<<<<< HEAD
     firstName: formData.name,      // Mapare manuală
     lastName: formData.surname,
     email: formData.email,
@@ -140,6 +141,17 @@ const navigate = useNavigate();
 };
 
 const response = await axios.post(`${API_URL}/user/register`, payload);
+=======
+                firstName: formData.name,      // Mapare manuală
+                lastName: formData.surname,
+                email: formData.email,
+                password: formData.password,
+                cnp: formData.cnp,             // Asigură-te că ai cnp și address în formData
+                address: formData.address
+            };
+
+            const response = await axios.post(`${API_URL}/user/register`, payload);
+>>>>>>> main
             console.log('Success:', response.data);
             alert("Înregistrare reușită!");
             navigate("/login"); // Trimite userul la login după succes
@@ -152,6 +164,15 @@ const response = await axios.post(`${API_URL}/user/register`, payload);
     return (
         <div>
             <h1>Welcome to Register Page</h1>
+            <video autoPlay loop muted playsInline className="video-bg">
+                            <source src="/videoMoney/Generare_Video_Sloturi_cu_Bani.mp4" type="video/mp4" />
+                        </video>
+
+                        <div className="video-overlay"></div>
+            <div className="logo-wrapper">
+                                    <img src="/logo/Gemini_Generated_Image_ge1422ge1422ge14-removebg-preview.png" alt="VIP SLOTS Logo" />
+                                </div>
+
             <div className="screen">
                 <div className="box">
                     <label>Nume</label>
@@ -185,7 +206,9 @@ const response = await axios.post(`${API_URL}/user/register`, payload);
                 <p>{emailError}</p>
 
                 {/* Apelăm funcția corect, fără să mai pasăm argumente manual */}
-                <button onClick={handleSubmit}>Submit</button>
+                <button className="btn-submit" onClick={handleSubmit}>
+                    Submit
+                </button>
             </div>
         </div>
     );
