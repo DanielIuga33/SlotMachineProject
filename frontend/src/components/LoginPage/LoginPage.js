@@ -1,7 +1,31 @@
 import React from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
+import API_URL from '../..';
 import './LoginPage.css';
 
 const Login = () => {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const navigate = useNavigate();
+    const signIn = async(e) => {
+        e.preventDefault();
+        try{
+            const response = await axios.post(`${API_URL}/user/auth`, {
+                email: email,
+                password: password
+            });
+            if (response.status === 200) {
+                window.alert("You logged in succesfully !");
+            }
+            navigate("/main");
+        }
+        catch (err){
+            window.alert(`Error trying to authetificate: ${err.response?.data || err.message}`);
+        }
+    }
+
     return (
         <div className="login-container">
         <div className="logo-wrapper">
@@ -16,9 +40,9 @@ const Login = () => {
             <div className="login-box">
                 <h2>Login</h2>
                 <form>
-                    <input type="text" placeholder="Utilizator" />
-                    <input type="password" placeholder="Parola" />
-                    <button type="submit" className= "btn-login">Intra în cont</button>
+                    <input type="text" name="email" onChange={(e) => {setEmail(e.target.value)}} placeholder="Utilizator" />
+                    <input type="password" name="password" onChange={(e) => {setPassword(e.target.value)}} placeholder="Parola" />
+                    <button type="submit" className= "btn-login" onClick={signIn}>Intra în cont</button>
                 </form>
             </div>
         </div>

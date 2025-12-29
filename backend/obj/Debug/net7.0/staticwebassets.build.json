@@ -1,1 +1,19 @@
-{"Version":1,"Hash":"N7qxhc9M+1QNtfzJGqsi8ULkGFultmEzonbEq/EKgV4=","Source":"backend","BasePath":"_content/backend","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "E3/DWEci5NogYV1gopoVjaG1k14DhhKtRKiwq3fFCOQ=",
+  "Source": "backend",
+  "BasePath": "_content/backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "backend\\wwwroot",
+      "Source": "backend",
+      "ContentRoot": "E:\\Programare\\GitHub Projects\\SlotMachineProject\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

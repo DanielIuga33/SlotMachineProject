@@ -27,6 +27,19 @@ namespace backend.Services
             return user != null;
         }
 
+        public IUserRepository Get_userRepository()
+        {
+            return _userRepository;
+        }
+
+        public async Task<User> FindByEmail(string email)
+        {
+            var user = await _userRepository.GetByEmailAsync(email);
+
+            // Dacă user este null, returnăm un obiect User gol
+            return user ?? new User();
+        }
+
         public async Task<User> RegisterAsync(User user, string clearPassword)
         {
             var existingUser = await _userRepository.GetByEmailAsync(user.Email);
