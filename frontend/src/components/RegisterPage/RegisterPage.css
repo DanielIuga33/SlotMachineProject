@@ -94,15 +94,16 @@
 /* Logo */
 
 
-.logo-wrapper {
+.logo-wrapper-register {
     position: absolute;
-    top: 20px;       /* Distanța față de marginea de sus */
-    left: 20px;      /* Distanța față de marginea din stânga */
+    top: 20px;
+    right:60px;
+    left: auto;      /* Distanța față de marginea din stânga */
     transform: none; /* Eliminăm centrarea anterioară */
     z-index: 100;    /* Se asigură că stă peste video și overlay */
 }
 
-.logo-wrapper img {
+.logo-wrapper-register img {
     width: 180px;    /* Îl facem puțin mai mic pentru colț, să nu ocupe prea mult spațiu */
     height: auto;
     mix-blend-mode: screen;
@@ -110,7 +111,7 @@
     transition: transform 0.3s ease;
 }
 
-.logo-wrapper img:hover {
+.logo-wrapper-register img:hover {
     transform: scale(1.1); /* Efect de mărire la trecerea mouse-ului */
 }
 
@@ -139,4 +140,31 @@
 .login-box form input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px #0a0a0a inset !important;
     -webkit-text-fill-color: #f3cf7a !important;
+}
+
+.btn-back {
+   background: linear-gradient(180deg, #f3cf7a 0%, #d4a017 100%);
+   color: #1a1a1a;
+   padding: 10px 80px;
+   font-size: 1.0rem;
+   font-weight: bold;
+   border-radius: 50px;
+   width:50px;
+   height:50px;
+   position: absolute;
+   top:50px;
+   left:50px;
+   z-index:100;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   border: none;
+   cursor: pointer;
+   box-shadow: 0 4px 15px rgba(212, 160, 23, 0.4);
+   transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(212, 160, 23, 0.6);
 }

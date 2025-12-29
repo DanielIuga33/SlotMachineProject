@@ -149,9 +149,13 @@ const navigate = useNavigate();
                         </video>
 
                         <div className="video-overlay"></div>
-            <div className="logo-wrapper">
+            <div className="logo-wrapper-register">
                                     <img src="/logo/Gemini_Generated_Image_ge1422ge1422ge14-removebg-preview.png" alt="VIP SLOTS Logo" />
                                 </div>
+             <button className="btn-back" onClick={() => navigate('/')}>
+                 Inapoi
+               </button>
+
 
             <div className="screen">
                 <div className="box">

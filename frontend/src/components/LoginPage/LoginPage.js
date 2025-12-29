@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import API_URL from '../..';
 import './LoginPage.css';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -28,7 +29,7 @@ const Login = () => {
 
     return (
         <div className="login-container">
-        <div className="logo-wrapper">
+        <div className="logo-wrapper-login">
                         <img src="/logo/Gemini_Generated_Image_ge1422ge1422ge14-removebg-preview.png" alt="VIP SLOTS Logo" />
                     </div>
             <video autoPlay loop muted playsInline className="video-bg">
@@ -36,6 +37,10 @@ const Login = () => {
             </video>
 
             <div className="video-overlay"></div>
+
+            <button className="btn-back" onClick={() => navigate('/')}>
+                Inapoi
+            </button>
 
             <div className="login-box">
                 <h2>Login</h2>
