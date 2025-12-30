@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21c9612-db75-4d32-adae-d429aad8ddab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/.wsuo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/obj/Debug/net7.0/backend.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/videoMoney/video_preview_h264.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TransactionsPage/TransactionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TransactionsPage/TransactionPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TransactionsPage/TransactionsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TransactionsPage/TransactionsPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TransactionsPage/fundal-casino.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +55,11 @@
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\logo" />
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\videoMoney" />
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\src\components\TransactionsPage" />
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\pozeFundal" />
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\src\components\AccountPage" />
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\src\components\GamesPage" />
     </key>
   </component>
   <component name="TaskManager">

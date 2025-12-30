@@ -1,0 +1,103 @@
+.games-page-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-image: url('./background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Logo*/
+.logo-wrapper-gamesMenu {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 10px;
+    right: auto;
+    transform: none;
+    z-index: 100;
+}
+
+.logo-wrapper-gamesMenu img {
+    width: 80px;      /* Îl facem mic (ajustează între 60px și 100px după preferință) */
+    height: auto;
+    mix-blend-mode: screen; /* Bun pentru logo-ul tău VIP SLOTS pe fundal negru */
+    filter: drop-shadow(0 0 5px rgba(243, 207, 122, 0.4));
+    transition: transform 0.3s ease;
+}
+
+.logo-wrapper-gamesMenu img:hover {
+    transform: scale(1.1);
+}
+
+/* Casute pt jocuri mici pe main page*/
+.jocuri {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Stilul pentru căsuța jocului */
+.game-card-preview {
+    width: 350px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border: 2px solid #ffd700;
+    border-radius: 25px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.game-card-preview:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+}
+
+.game-card-header h3 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.game-card-reels-static {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mini-reel-box {
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.game-card-info p {
+    color: #00ff00; /* Verde pentru jackpot */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.play-overlay-btn {
+    background: #ffd700;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

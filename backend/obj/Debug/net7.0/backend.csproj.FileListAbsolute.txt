@@ -79,3 +79,4 @@ E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\refint
 E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.pdb
 E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\backend.genruntimeconfig.cache
 E:\Programare\GitHub Projects\SlotMachineProject\backend\obj\Debug\net7.0\ref\backend.dll
+E:\GitHubProjects\SlotMachineProject\backend\bin\Debug\net7.0\backend.staticwebassets.runtime.json
