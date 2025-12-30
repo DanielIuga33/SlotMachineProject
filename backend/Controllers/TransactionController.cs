@@ -18,21 +18,31 @@ public class TransactionController : ControllerBase
     {
         try
         {
-            // 1. Verificăm dacă userul (Daniel) există
             var user = await _userService.GetByIdAsync(request.UserId);
             if (user == null) return NotFound("Utilizatorul nu a fost găsit.");
 
-            // 2. Actualizăm balanța (Logic: Balanță nouă = Balanță veche + Sumă depusă)
-            user.Balance += request.Amount;
+            // --- LOGICA NOUĂ ---
+            if (request.Type == "Depunere")
+            {
+                user.Balance += request.Amount;
+            }
+            else if (request.Type == "Retragere")
+            {
+                // Verificăm dacă are destui bani pentru retragere
+                if (user.Balance < request.Amount)
+                {
+                    return BadRequest(new { message = "Fonduri insuficiente pentru retragere!" });
+                }
+                user.Balance -= request.Amount; // Scădem suma
+            }
+            // -------------------
 
-            // 3. Salvăm modificarea în baza de date prin serviciul tău
-            // Trebuie să ai o metodă UpdateAsync în IUserService
             await _userService.UpdateUserAsync(user);
 
-            // 4. Aici în mod normal ai salva și în tabelul de Tranzacții
-            // await _transactionService.AddAsync(request); 
+            // Mesaj dinamic pentru răspuns
+            string mesajSucces = request.Type == "Depunere" ? "Depunere realizată!" : "Retragere realizată!";
 
-            return Ok(new { message = "Depunere realizată!", newBalance = user.Balance });
+            return Ok(new { message = mesajSucces, newBalance = user.Balance });
         }
         catch (Exception ex)
         {

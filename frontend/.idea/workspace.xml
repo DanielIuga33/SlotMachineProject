@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21c9612-db75-4d32-adae-d429aad8ddab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/CopilotIndices/17.14.1561.44479/CodeChunks.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/CopilotIndices/17.14.1561.44479/CodeChunks.db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/CopilotIndices/17.14.1561.44479/SemanticSymbols.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.vs/backend/CopilotIndices/17.14.1561.44479/SemanticSymbols.db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/ProjectEvaluation/backend.metadata.v6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/ProjectEvaluation/backend.projects.v6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/19a7b7a6-74ce-410e-bc19-c9e278621b10.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/3b4d3b94-0707-4764-88b6-687866109769.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/a532a340-3aa0-4264-ac32-57f76ef5d064.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.vs/backend/FileContentIndex/e9c5482c-fc6e-4132-beda-d5b24aae566d.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TransactionsPage/TransactionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TransactionsPage/TransactionPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SlotMachine/SlotMachine.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SlotMachine/SlotMachine.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SlotMachine/SlotMachine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SlotMachine/SlotMachine.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +54,11 @@
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\src\assets" />
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\videoMoney" />
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\src\components\TransactionsPage" />
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\public\pozeFundal" />
       <recent name="E:\GitHubProjects\SlotMachineProject\frontend\src\components\AccountPage" />
-      <recent name="E:\GitHubProjects\SlotMachineProject\frontend\src\components\GamesPage" />
     </key>
   </component>
   <component name="TaskManager">
