@@ -1,7 +1,6 @@
 
 .transaction-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-                url('./fundal-casino.png');
+    background: rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

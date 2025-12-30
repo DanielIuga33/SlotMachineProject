@@ -42,7 +42,7 @@ const Login = () => {
                 <img src="/logo/Gemini_Generated_Image_ge1422ge1422ge14-removebg-preview.png" alt="VIP SLOTS Logo" />
             </div>
             <video autoPlay loop muted playsInline className="video-bg">
-                <source src="/videoMoney/video_preview_h264.mp4" type="video/mp4" />
+                <source src="/videoMoney/video-login.mp4" type="video/mp4" />
             </video>
             <div className="video-overlay"></div>
             <button className="btn-back" onClick={() => navigate('/')}>Inapoi</button>
