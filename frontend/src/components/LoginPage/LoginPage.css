@@ -116,9 +116,9 @@
     position: absolute;
     top: 20px;
     right: 60px;
-    left: auto;      /* Distanța față de marginea din stânga */
-    transform: none; /* Eliminăm centrarea anterioară */
-    z-index: 100;    /* Se asigură că stă peste video și overlay */
+    left: auto;
+    transform: none;
+    z-index: 100;
 }
 
 .logo-wrapper-login img {
