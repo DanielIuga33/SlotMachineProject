@@ -10,7 +10,23 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "UserController",
+    "ContainingType": "TransactionController",
+    "Method": "CreateTransaction",
+    "RelativePath": "api/Transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.UserController",
     "Method": "GetUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
@@ -36,7 +52,44 @@
     ]
   },
   {
-    "ContainingType": "UserController",
+    "ContainingType": "backend.Controllers.UserController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "backend.Controllers.UserUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.UserController",
+    "Method": "Auth",
+    "RelativePath": "api/User/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginData",
+        "Type": "backend.DTOs.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "backend.Controllers.UserController",
     "Method": "ExistByEmail",
     "RelativePath": "api/User/check-email/{email}",
     "HttpMethod": "GET",
@@ -62,7 +115,7 @@
     ]
   },
   {
-    "ContainingType": "UserController",
+    "ContainingType": "backend.Controllers.UserController",
     "Method": "Register",
     "RelativePath": "api/User/register",
     "HttpMethod": "POST",

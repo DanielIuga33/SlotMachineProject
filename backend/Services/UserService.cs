@@ -1,12 +1,12 @@
 ﻿using backend.Models;
-using backend.Repositories; // Importăm Repository-ul
+using backend.Repositories;
 using BCrypt.Net;
 
 namespace backend.Services
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository; // Folosim Repository-ul, nu Context-ul
+        private readonly IUserRepository _userRepository;
 
         public UserService(IUserRepository userRepository)
         {
@@ -15,15 +15,12 @@ namespace backend.Services
 
         public async Task<User?> GetByIdAsync(int id)
         {
-            // Folosim repository-ul pentru a căuta
             return await _userRepository.GetByIdAsync(id);
         }
 
         public async Task<bool> ExistByEmail(string email)
         {
             var user = await _userRepository.GetByEmailAsync(email);
-
-            // Dacă user nu este null, înseamnă că există în baza de date
             return user != null;
         }
 
@@ -35,8 +32,6 @@ namespace backend.Services
         public async Task<User> FindByEmail(string email)
         {
             var user = await _userRepository.GetByEmailAsync(email);
-
-            // Dacă user este null, returnăm un obiect User gol
             return user ?? new User();
         }
 
@@ -47,17 +42,26 @@ namespace backend.Services
             {
                 throw new Exception("Acest email este deja utilizat!");
             }
-            // 1. Hashing (Transformăm parola în cod sigur)
-            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(clearPassword);
 
-            // 2. Setări inițiale (Bonus de bun venit)
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(clearPassword);
             user.Balance = 1000;
 
-            // 3. Salvare prin Repository
             await _userRepository.AddAsync(user);
             await _userRepository.SaveChangesAsync();
 
             return user;
         }
+
+        // ANDREEA: MODIFICARE - Implementarea metodei care face legătura între Controller și Repository
+        public async Task UpdateUserAsync(User user)
+        {
+            // ANDREEA: MODIFICARE - Pasul 1: Anunțăm Repository-ul de modificări
+            await _userRepository.UpdateAsync(user);
+
+            // ANDREEA: MODIFICARE - Pasul 2: Commit în baza de date PostgreSQL
+            await _userRepository.SaveChangesAsync();
+        }
+
+
     }
 }
