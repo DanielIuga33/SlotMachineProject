@@ -21,14 +21,19 @@ const TransactionPage = () => {
         const transactionData = {
             userId: parseInt(userId),
             amount: parseFloat(amount),
-            type: "Depunere",
+            type: choice,
             date: new Date().toISOString()
         };
 
         try {
             await axios.post('https://localhost:7127/api/Transaction', transactionData);
-            window.alert(`Succes! Ai depus ${amount} RON în contul tău.`);
+
+            const actiune = choice === "Depunere" ? "depus" : "retras";
+
+            window.alert(`Succes! Ai ${actiune} ${amount} RON în contul tău.`);
             setAmount('');
+            setChoice('');
+
         } catch (err) {
             console.error("Eroare la depunere:", err);
             window.alert("Eroare la procesarea plății. Verifică conexiunea cu serverul.");
@@ -128,70 +133,63 @@ const TransactionPage = () => {
         </div>
     );
 
-        if (choice === "Retragere") return (
-            <div className="transaction-container">
-                <SideBar />
+       if (choice === "Retragere") return (
+               <div className="transaction-container">
+                   <SideBar />
+                   <button className="btn-back" onClick={() => setChoice("")}>Inapoi</button>
 
-          <button className="btn-back" onClick={() => setChoice("")}>Inapoi</button>
+                   <div className="logo-wrapper-login">
+                       <img src="/logo/Gemini_Generated_Image_ge1422ge1422ge14-removebg-preview.png" alt="VIP SLOTS Logo" />
+                   </div>
 
-                <div className="logo-wrapper-login">
-                                <img src="/logo/Gemini_Generated_Image_ge1422ge1422ge14-removebg-preview.png" alt="VIP SLOTS Logo" />
-                            </div>
-                <video autoPlay loop muted playsInline className="video-bg">
-                    <source src="/videoMoney/video-tranzactii.mp4" type="video/mp4" />
-                 </video>
+                   <video autoPlay loop muted playsInline className="video-bg">
+                       <source src="/videoMoney/video-tranzactii.mp4" type="video/mp4" />
+                   </video>
 
-                <main className="transaction-main-content">
-                    <div className="transaction-glass-card">
-                        <form className="transaction-form" onSubmit={handleDeposit}>
-                            <div className="payment-options">
-                                <button type="button">PayPal</button>
-                                <button type="button">Apple Pay</button>
-                                <button type="button">Google Pay</button>
-                            </div>
+                   <main className="transaction-main-content">
+                       <div className="transaction-glass-card">
+                           <form className="transaction-form" onSubmit={handleDeposit}>
+                               <div className="payment-options">
+                                   <button type="button" className="method-btn active">Cont Bancar</button>
+                                   <button type="button" className="method-btn">Card Salvat</button>
+                               </div>
 
-                            <div className="separator">
-                                <hr className="line" />
-                                <p>SAU CU CARDUL</p>
-                                <hr className="line" />
-                            </div>
+                               <div className="separator">
+                                   <hr className="line" />
+                                   <p>DETALII RETRAGERE</p>
+                                   <hr className="line" />
+                               </div>
 
-                            <div className="credit-card-info">
-                                <div className="input-container">
-                                    <label className="input-label">NUME DEȚINĂTOR</label>
-                                    <input className="input-field" type="text" placeholder="" required />
-                                </div>
+                               <div className="credit-card-info">
+                                   <div className="input-container">
+                                       <label className="input-label">NUME BENEFICIAR</label>
+                                       <input className="input-field" type="text" placeholder="Numele complet" required />
+                                   </div>
 
-                                <div className="input-container">
-                                    <label className="input-label">SUMĂ DEPUNERE (RON)</label>
-                                    <input
-                                        className="input-field no-spinners"
-                                        type="number"
-                                        placeholder="0.00"
-                                        value={amount}
-                                        onChange={(e) => setAmount(e.target.value)}
-                                        required
-                                    />
-                                </div>
+                                   <div className="input-container">
+                                       <label className="input-label">IBAN / CONT</label>
+                                       <input className="input-field" type="text" placeholder="RO00 XXXX XXXX XXXX XXXX" required />
+                                   </div>
 
-                                <div className="split-inputs">
-                                    <div className="input-container">
-                                        <label className="input-label">EXPIRARE</label>
-                                        <input className="input-field" type="text" placeholder="MM/YY" required />
-                                    </div>
-                                    <div className="input-container">
-                                        <label className="input-label">CVC</label>
-                                        <input className="input-field" type="password" placeholder="***" required />
-                                    </div>
-                                </div>
-                            </div>
+                                   <div className="input-container">
+                                       <label className="input-label">SUMĂ RETRAGERE (RON)</label>
+                                       <input
+                                           className="input-field no-spinners"
+                                           type="number"
+                                           placeholder="0.00"
+                                           value={amount}
+                                           onChange={(e) => setAmount(e.target.value)}
+                                           required
+                                       />
+                                   </div>
+                               </div>
 
-                            <button className="deposit-btn" type="submit">DEPUNE BANI</button>
-                        </form>
-                    </div>
-                </main>
-            </div>
-        );
+                               <button className="deposit-btn" type="submit">RETRAGE BANI</button>
+                           </form>
+                       </div>
+                   </main>
+               </div>
+           );
 
 
 
