@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{657D0050-C774-4166-AC05-433021985AAE}|backend.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{657D0050-C774-4166-AC05-433021985AAE}|backend.csproj|e:\\githubprojects\\slotmachineproject\\backend\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657D0050-C774-4166-AC05-433021985AAE}|backend.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{657D0050-C774-4166-AC05-433021985AAE}|backend.csproj|e:\\githubprojects\\slotmachineproject\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{657D0050-C774-4166-AC05-433021985AAE}|backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,20 +82,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T21:05:50.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TransactionController.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Controllers\\TransactionController.cs",
               "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
               "ToolTip": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Controllers\\TransactionController.cs",
               "RelativeToolTip": "Controllers\\TransactionController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwCgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T15:10:20.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IUserService.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AppDBContex.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Data\\AppDBContex.cs",
               "RelativeDocumentMoniker": "Data\\AppDBContex.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -187,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "backend.csproj",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\backend.csproj",
               "RelativeDocumentMoniker": "backend.csproj",
@@ -199,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HelloController.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Controllers\\HelloController.cs",
               "RelativeDocumentMoniker": "Controllers\\HelloController.cs",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -223,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "E:\\GitHubProjects\\SlotMachineProject\\backend\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",

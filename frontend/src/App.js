@@ -10,6 +10,7 @@ import TransactionPage from './components/TransactionsPage/TransactionPage';
 import EditAccountPage from './components/EditAccountPage/EditAccountPage';
 import SlotMachine from './components/SlotMachine/SlotMachine';
 
+
 function App() {
   return (
     <div className="App">
