@@ -1,0 +1,238 @@
+.account-layout {
+
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #080808;
+    overflow: hidden;
+    position: relative;
+}
+
+.account-main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+.royal-avatar-wrapper {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-frame-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+    pointer-events: none;
+    filter: drop-shadow(0 0 10px rgba(191, 149, 63, 0.5));
+}
+
+.avatar-content {
+    width: 80px;
+    height: 80px;
+    background: #111;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fcf6ba;
+    z-index: 1;
+    text-shadow: 0 0 10px rgba(191, 149, 63, 0.3);
+}
+
+.user-name {
+    margin-top: 15px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.profile-glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(212, 160, 23, 0.4);
+    border-radius: 30px;
+    padding: 60px;
+    width: 500px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.8s ease;
+}
+
+.profile-avatar-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.avatar-gold-circle {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(145deg, #bf953f, #fcf6ba, #aa771c);
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    box-shadow: 0 0 20px rgba(191, 149, 63, 0.4);
+}
+
+.profile-avatar-section h2 {
+    color: white;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.user-role {
+    color: #bf953f;
+    text-shadow: 0 0 8px rgba(191, 149, 63, 0.6);
+    animation: text-shine 2s infinite alternate;
+}
+
+@keyframes text-shine {
+    from { opacity: 0.8; }
+    to { opacity: 1; text-shadow: 0 0 15px rgba(252, 246, 186, 0.9); }
+}
+
+/* Grila de date */
+.profile-data-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.data-field {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+
+.data-field label {
+    display: block;
+    color: #888;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.data-field p {
+    color: white;
+    font-size: 1rem;
+}
+
+.gold-highlight {
+    border-bottom-color: #bf953f;
+}
+
+.balance-amount {
+    color: #ffd700 !important;
+    font-weight: bold;
+    font-size: 1.2rem !important;
+}
+
+.btn-update {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #bf953f;
+    color: #bf953f;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-update:hover {
+    background: #bf953f;
+    color: black;
+    box-shadow: 0 0 15px rgba(191, 149, 63, 0.4);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Personajele de fundal */
+
+.bg-character {
+    position: fixed;
+    bottom: 0;
+    height: 100vh;
+    width: auto;
+    z-index: 0;
+    pointer-events: none;
+    mask-image: linear-gradient(to top, black 85%, transparent 100%);
+}
+
+.char-left {
+    left: -148px;
+    transform-origin: bottom left;
+    transform: scale(1.0);
+}
+
+.char-right {
+    right: -200px;
+    transform-origin: bottom right;
+    transform: scale(1.0);
+}
+
+.profile-glass-card {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(212, 160, 23, 0.4);
+    border-radius: 30px;
+    padding: 40px 60px;
+    width: 450px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+}
+
+.account-main-content {
+    position: relative;
+    z-index: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-left: 80px;
+}
+
+/* Logo*/
+.logo-wrapper-accountPage {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 10px;
+    right: auto;
+    transform: none;
+    z-index: 100;
+}
+
+.logo-wrapper-accountPage img {
+    width: 80px;      /* Îl facem mic (ajustează între 60px și 100px după preferință) */
+    height: auto;
+    mix-blend-mode: screen; /* Bun pentru logo-ul tău VIP SLOTS pe fundal negru */
+    filter: drop-shadow(0 0 5px rgba(243, 207, 122, 0.4));
+    transition: transform 0.3s ease;
+}
+
+.logo-wrapper-accountPage img:hover {
+    transform: scale(1.1);
+}

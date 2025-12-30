@@ -1,0 +1,172 @@
+.sidebar-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100px;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.sidebar-pill {
+    background: linear-gradient(145deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+    border: 1px solid #8a6d3b;
+    border-radius: 35px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.sidebar-item {
+    cursor: pointer;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-item input {
+    display: none;
+}
+
+.icon-box {
+    color: #4a3714;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.2));
+}
+
+.sidebar-item:hover .icon-box {
+    transform: scale(1.3) translateY(-3px);
+    color: #fff;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.8));
+}
+
+.sidebar-item input:checked + .icon-box {
+    transform: scale(1.3);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+.sidebar-item:hover .logout-icon {
+    color: #8b0000;
+}
+
+.sidebar-item::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 85px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffd700;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    white-space: nowrap;
+    border: 1px solid #bf953f;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-10px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.sidebar-item::before {
+    content: '';
+    position: absolute;
+    left: 77px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(191, 149, 63, 0.8) transparent transparent;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.sidebar-item:hover::after,
+.sidebar-item:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+/* Fundalul care blochează restul paginii */
+.logout-overlay {
+    position: fixed; /* Îl scoate din contextul sidebar-ului */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6); /* Întunecare fundal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Să fie peste orice altceva */
+    backdrop-filter: blur(10px); /* Efect de sticlă blurată */
+}
+
+.logout-panel {
+    background: rgba(20, 20, 20, 0.85); /* Transparent dar închis */
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 30px;
+    border: 2px solid #d4a017; /* Marginea aurie */
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+    max-width: 500px;
+}
+
+.logout-panel h2 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.logout-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logout-buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.logout-buttons button {
+    background: linear-gradient(180deg, #f3cf7a 0%, #d4a017 100%);
+    color: #1a1a1a;
+    padding: 10px 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(212, 160, 23, 0.4);
+    transition: all 0.3s ease;
+    min-width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-da:hover, .btn-nu:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(212, 160, 23, 0.6);
+    filter: brightness(1.1);
+}
